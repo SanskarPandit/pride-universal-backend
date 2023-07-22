@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 // app.use(bodyParser.json());
 
-app.get("/getAllResidence", async (req, res) => {
+app.get("/getAllResidents", async (req, res) => {
   const showData = await Building.find();
   res.send(showData);
 });
