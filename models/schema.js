@@ -25,7 +25,6 @@ const societySchema = new mongoose.Schema({
               },
               ownerContactNo: {
                 type: Number,
-                unique: true,
               },
             },
           ],
