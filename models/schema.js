@@ -24,9 +24,9 @@ const societySchema = new mongoose.Schema({
               flatNumber: {
                 type: Number,
               },
-              ownerFname: {},
-              ownerLname: {},
-              ownerContactNo: {},
+              owner_fname: {},
+              owner_lname: {},
+              owner_contact_number: {},
             },
           ],
         },
