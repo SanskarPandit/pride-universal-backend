@@ -12,20 +12,21 @@ const societySchema = new mongoose.Schema({
           floor: {
             type: Number,
           },
+
           flats: [
             {
+              wing: {
+                type: String,
+              },
+              floor: {
+                type: Number,
+              },
               flatNumber: {
                 type: Number,
               },
-              ownerFname: {
-                type: String,
-              },
-              ownerLname: {
-                type: String,
-              },
-              ownerContactNo: {
-                type: Number,
-              },
+              ownerFname: {},
+              ownerLname: {},
+              ownerContactNo: {},
             },
           ],
         },
